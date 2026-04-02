@@ -38,6 +38,8 @@ Example:
 ImpersonatePPPotato.exe -c "cmd /c whoami"
 ```
 ![](images/2.PNG)
+# Disclaimer
+**For educational and authorized auditing purposes only.** This tool has been created strictly for use by security professionals in environments where they have explicit permission from the system owner. The author is not responsible for the misuse of this tool.
 
 # Credits
 This project is a C++ port of the original C# project created by BeichenDream.
@@ -46,7 +48,5 @@ Original repository:
 [https://github.com/BeichenDream/GodPotato](https://github.com/BeichenDream/GodPotato)
 
 All credit for the original idea and implementation belongs to its author.
-# Disclaimer
-**For educational and authorized auditing purposes only.** This tool has been created strictly for use by security professionals in environments where they have explicit permission from the system owner. The author is not responsible for the misuse of this tool.
 # Acknowledgments
 Thanks to BeichenDream for the original C# project that served as a basis and inspiration.
