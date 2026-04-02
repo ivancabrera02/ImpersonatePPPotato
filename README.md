@@ -7,7 +7,7 @@ To do this, the SeImpersonatePrivilege privilege must be enabled, which is gener
 
 # Affected Version
 Windows Server 2012 - Windows Server 2022 Windows8 - Windows 11
-## About this version
+# About this version
 - Completely rewritten in C++
 - No .NET dependency
 - Adapted for learning about DCOM objects and research, as well as the need to use a version undetectable by EDRs
