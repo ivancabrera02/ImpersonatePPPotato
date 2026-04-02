@@ -32,12 +32,12 @@ Options:
 Example:
   C:\Poc\ImpersonatePPPotato.exe -c "cmd /c whoami"
 ```
-![](images/1.png)
+![](images/1.PNG)
 
 ```
 ImpersonatePPPotato.exe -c "cmd /c whoami"
 ```
-![](images/2.png)
+![](images/2.PNG)
 
 # Credits
 This project is a C++ port of the original C# project created by BeichenDream.
