@@ -639,7 +639,6 @@ DWORD ImpersonatePPPotatoContext::GetTokenImpersonationLevel(HANDLE hToken) {
     GetTokenInformation(hToken, TokenImpersonationLevel, nullptr, 0, &dwLen);
 
     if (GetLastError() == ERROR_INSUFFICIENT_BUFFER && dwLen > 0) {
-        // Impersonation token - get the actual level
         SECURITY_IMPERSONATION_LEVEL* pLevel = (SECURITY_IMPERSONATION_LEVEL*)malloc(dwLen);
         if (!pLevel) return SecurityAnonymous;
 
@@ -652,7 +651,6 @@ DWORD ImpersonatePPPotatoContext::GetTokenImpersonationLevel(HANDLE hToken) {
         return SecurityAnonymous;
     }
 
-    // Primary token - these can be used for process creation
     return SecurityImpersonation;
 }
 
